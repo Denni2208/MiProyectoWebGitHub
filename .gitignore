@@ -1,0 +1,13 @@
+#Ignorar archivos de caché del OS
+.DS_Store
+Thumbs.db
+
+#Ignorar directorios de módulos 
+node_modules/
+
+#ignorar archivos de registro 
+*.log 
+*.temp 
+
+#ignorar el propio .gitignore para fines de demostracion, aunque generalmente se versiona 
+.gitignore 
